@@ -1,0 +1,11 @@
+body{
+  background-color: pink;
+  color: purple;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+img{
+  display: block;
+  padding: 1rem;
+}
