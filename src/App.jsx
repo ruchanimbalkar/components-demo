@@ -24,6 +24,10 @@ function App() {
     console.log("This button clicked!"); 
   }
 
+  function clickThird() { 
+    console.log("Third button clicked!"); 
+  }
+
   return (
     <>
      <h1>Components Practice</h1>
@@ -33,8 +37,8 @@ function App() {
 
       <Button onClick = {handleClick} text="Click Me"/>
       <Button onClick = {clickWork} text="Click This Button"/>
-      <Button onClick = {clickWork} text="Click Now!"/>
-      
+      <Button onClick = {clickThird} text="Click Now!"/>
+
       <Image path = {reactImage} altText="react-image" widthPx="300px" />
       <HeadingFour content= "This is Fun!"/>
     </>
